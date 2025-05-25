@@ -5,7 +5,7 @@
 // You are not allowed to use var
 // You are not allowed to use length
 
-const firstAgr = process.avg[2];
+const firstAgr = process.argv[2];
 
 if (firstAgr === undefined) {
     console.log('No argument');
