@@ -1,9 +1,10 @@
-let arguments = 0;
+let argsCount = process.argv.length - 2;
 
-if (arguments <= 0) {
+if (arguments === 0) {
     console.log('No argument');
-} if (arguments > 1) {
+} if (arguments === 1) {
     console.log('Argument found');
 } else {
     console.log('Arguments found');
 }
+
