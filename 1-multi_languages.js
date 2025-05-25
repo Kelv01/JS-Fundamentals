@@ -1,5 +1,5 @@
 let firstLine = 'C is fun';
-let secondLine = 'python is cool';
+let secondLine = 'Python is cool';
 let thirdLine = 'JavaScript is amazing';
 
 console.log(`
